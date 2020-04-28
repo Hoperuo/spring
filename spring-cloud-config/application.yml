@@ -1,11 +1,4 @@
 spring:
-  cloud:
-    config:
-      label: master
-      profile: dev
-      discovery:
-        service-id: hm-config
-        enabled: true
   datasource:
     username: root
     password: hoperuo666
