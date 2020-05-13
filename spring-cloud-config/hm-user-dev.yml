@@ -4,7 +4,7 @@ spring:
   datasource:
     username: root
     #password: hoperuo666
-    password: mysql123456
+    password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
     #url: jdbc:mysql://192.168.58.136:3306/hm_user
     url: jdbc:mysql://192.168.213.129:3306/hm-user
