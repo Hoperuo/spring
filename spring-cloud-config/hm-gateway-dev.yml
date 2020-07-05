@@ -1,5 +1,5 @@
 zuul:
   routes:
     hm-user:
-      path : /user/*
+      path: /user/**
       serviceId: hm-user
