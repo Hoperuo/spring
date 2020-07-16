@@ -1,25 +1,4 @@
 spring:
-  datasource:
-    username: root
-    #password: hoperuo666
-    #password: root
-    password: hmagic
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    #url: jdbc:mysql://192.168.58.136:3306/hm_user
-    #url: jdbc:mysql://192.168.213.129:3306/hm-user
-    url: jdbc:mysql://localhost:3306/hm_user?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
-    type: com.alibaba.druid.pool.DruidDataSource
-    druid:
-      initial-size: 5
-      min-idle: 5
-      max-active: 20
-      max-wait: 60000
-      # 打开PSCache，并且指定每个连接上PSCache的大小
-      pool-prepared-statements: true
-      max-pool-prepared-statement-per-connection-size: 20
-      time-between-eviction-runs-millis: 6000
-      #配置一个连接在池中最小生存的时间，单位是毫秒
-      min-evictable-idle-time-millis: 30000
   redis:
     port: 6379
     host: 192.168.58.136
