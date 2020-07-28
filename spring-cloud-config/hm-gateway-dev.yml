@@ -3,3 +3,6 @@ zuul:
     hm-user:
       path: /user/**
       serviceId: hm-user
+    hm-elasticsearch:
+      path: /es/**
+      serviceId: hm-elasticsearch
