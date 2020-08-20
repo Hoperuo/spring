@@ -11,6 +11,7 @@ spring:
         max-idle: 10
         min-idle: 0
     timeout: 3000
+  cloud:
     bus:
       #enabled: true
       refresh:
