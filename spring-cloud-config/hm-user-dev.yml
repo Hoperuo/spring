@@ -1,7 +1,7 @@
 spring:
   datasource:
     username: root
-    #password: hoperuo666
+    #password: hoperuo6661
     #password: root
     password: hmagic
     driver-class-name: com.mysql.cj.jdbc.Driver
